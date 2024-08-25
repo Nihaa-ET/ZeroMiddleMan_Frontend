@@ -1,0 +1,82 @@
+.add-seller-form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .container1 {
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="url"],
+  textarea,
+  input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  input[type="file"] {
+    padding: 3px;
+  }
+  
+  button.submit-button1 {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width:150px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-button1:hover {
+    background-color: #0056b3;
+  }
+  
+  .Toastify__toast-container {
+    margin-top: 80px;
+  }
+  .add-seller-btn{
+    display: flex;
+    justify-content: center;
+  }
