@@ -1,4 +1,4 @@
-const backendDomain = "https://zeromiddleman-api.onrender.com/api";
+const backendDomain = "https://zeromiddleman.entroxa.com/api";
 
 const SummaryApi = {
     // Import/Export
