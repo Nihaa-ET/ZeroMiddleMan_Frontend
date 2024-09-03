@@ -1,18 +1,16 @@
-import React, { useState } from 'react';
-import Header from './Header';
 import { Outlet } from 'react-router-dom';
-import Subheader from './Subheader';
-
-
+import Header from './Header';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Home() {
+
 
   return (
     <>
- 
-      <Header />
-      <Subheader/>
+      <ToastContainer />
+      <Header className="header" />
       <main className="content">
-        <Outlet  />
+        <Outlet />
       </main>
     </>
   );
