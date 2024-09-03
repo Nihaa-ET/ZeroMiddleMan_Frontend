@@ -1,5 +1,5 @@
 
-const backendDomain = "http://localhost:5050/api";
+const backendDomain = "https://zeromiddleman.entroxa.com/api";
 
 const SummaryApi = {
     // Import/Export
