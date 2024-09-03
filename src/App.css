@@ -1,0 +1,1191 @@
+  /* seller table */
+  
+  .seller_table {
+    @apply bg-white
+  }
+
+  .seller_table th {
+
+    @apply border text-base font-medium
+  }
+
+  .seller_table td {
+    @apply border text-base font-medium text-center
+  }
+
+  /* ActiveUsers Styles */
+  .settings2-active-users-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .settings2-active-users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .settings2-active-users-table th,
+  .settings2-active-users-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .settings2-active-users-table th {
+    background-color: #f4f4f4;
+  }
+
+  .settings2-disable-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .settings2-disable-button:hover {
+    background-color: #d32f2f;
+  }
+
+  /* DisabledUsers Styles */
+  .settings2-disabled-users-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .settings2-disabled-users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .settings2-disabled-users-table th,
+  .settings2-disabled-users-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .settings2-disabled-users-table th {
+    background-color: #f4f4f4;
+  }
+
+  .settings2-activate-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+
+  .settings2-activate-button:hover {
+    background-color: #388e3c;
+  }
+
+  /* BulkUpload Styles */
+  .container {
+    padding: 1rem;
+  }
+
+  .upload-section {
+    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .upload-section input[type="file"] {
+    display: block;
+    margin-block: 1rem;
+
+  }
+
+  /* .upload-section button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  } */
+
+  .upload-section button:hover {
+    background-color: #1976d2;
+  }
+
+  .table-section {
+    overflow-x: auto;
+  }
+
+  .table-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-section th,
+  .table-section td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .table-section th {
+    background-color: #f4f4f4;
+  }
+
+  .table-section button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .table-section button:hover {
+    background-color: #388e3c;
+  }
+
+  /* RegisterUser Styles */
+  .register-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-input,
+  .register-select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .register-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .register-button:hover {
+    background-color: #1976d2;
+  }
+
+  /* RegisterSuperAdmin Styles */
+  .registration-form-2-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  .registration-form-2-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .registration-form-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registration-form-2-input-group {
+    margin-bottom: 1rem;
+  }
+
+  .registration-form-2-input-label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  .authenticate-code{
+    -webkit-text-security: disc;
+  }
+
+  .registration-form-2-input-field {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .registration-form-2-submit-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .registration-form-2-submit-button:hover {
+    background-color: #1976d2;
+  }
+
+  .registration-form-2-error-message {
+    color: #f44336;
+  }
+
+  .registration-form-2-success-message {
+    color: #4caf50;
+  }
+
+  .registration-form-2-footer {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  /* Settings2 Styles */
+  .settings2-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    background-color: rgba(23, 22, 22, 0.629);
+    padding-block: 10px;
+  }
+
+  .settings2-nav button {
+    /* background-color: #2196f3; */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .settings2-nav button.active {
+    color: #0c0c0c
+  }
+
+  .settings2-content {
+    padding: 1rem;
+  }
+
+
+
+  .Edit-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right:5px;
+  }
+
+  .Delete-btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left:5px;
+    
+  }
+
+  .view-Seller-btns {
+    display: flex;
+    justify-content: end;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .modal-actions {
+    margin-top: 20px;
+  }
+
+  .confirm-button, .cancel-button {
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .confirm-button {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .cancel-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  /* AddSeller.css */
+  /* Container for the whole AddSeller component */
+  /* AddSeller.css */
+  /* AddSeller.css */
+
+  .add-seller-form1 {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.section:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.submit-button1 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width:150px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button1:hover {
+    background-color: #0056b3;
+}
+.form-container h2{
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .form-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section {
+        width: 100%;
+    }
+}
+
+
+
+
+  /* Table styling */
+  .trashed-seller-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .trashed-seller-details table th,
+  .trashed-seller-details table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .trashed-seller-details table th {
+    background-color: #f4f4f4;
+  }
+
+  .trashed-seller-details table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .trashed-seller-details table tr:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Button styling */
+  .trashed-seller-details button {
+    border: none;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .trashed-seller-details button:first-of-type {
+    background-color: #4CAF50; /* Green for Restore */
+  }
+
+  .trashed-seller-details button:first-of-type:hover {
+    background-color: #45a049;
+  }
+
+  .trashed-seller-details button:last-of-type {
+    background-color: #f44336; /* Red for Delete */
+  }
+
+  .trashed-seller-details button:last-of-type:hover {
+    background-color: #e53935;
+  }
+
+  /* Header styling */
+  .trashed-seller-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  } 
+ 
+
+  .container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+  }
+
+  .container h2 {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      color: #333;
+  }
+
+  .container input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      font-size: 1rem;
+  }
+
+  .submit-button {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  .submit-button:hover {
+      background-color: #0056b3;
+  }
+  .unauthorized-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .unauthorized-image {
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    width: 700px;
+    height: 600px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    z-index: -1; /* Places the image behind the content */
+  }
+
+  .content-overlay {
+    position: absolute;
+    top: 65%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensures the content is above the image */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.641); /* Optional: Add a semi-transparent background for better text visibility */
+    border-radius: 10px;
+  }
+
+  .unauthorized-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .unauthorized-message {
+    font-size: 1.2rem;
+  }
+  .btn-danger{
+    background-color: #d32f2f;
+  }
+  .add-seller-form1 {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+}
+
+/* .form-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Space between the columns */
+  flex-direction: row;
+}
+
+.section label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #555;
+}
+
+.section input,
+.section textarea,
+.section select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    height:60px;
+    box-sizing: border-box;
+}
+
+/* Placeholder styling */
+.section input::placeholder,
+.section textarea::placeholder {
+    color: #888; /* Placeholder text color */
+    font-size: 0.95rem; /* Placeholder font size */
+    font-style: italic; /* Italic placeholder text */
+    opacity: 1; /* Ensures placeholder visibility across browsers */
+}
+
+.submit-button1 {
+    width: 150px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px auto; /* Center align the button */
+    display: block;
+}
+
+.submit-button1:hover {
+    background-color: #45a049;
+}
+
+.add-seller-btn {
+    text-align: center; /* Center align the button */
+}
+
+
+
+  /* styles.css */
+
+  /* Container for View Seller Details */
+ /* ViewSellerDetails.css */
+
+/* Style for the main container */
+.view-seller-details {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the buttons container */
+.buttons-container {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Style for the buttons */
+/* .buttons-container button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+.trash-btn{
+  background-color: #ff0000c0;
+}
+
+/* .buttons-container button:hover {
+  background-color: #0056b3;
+} */
+
+/* Style for the seller details section */
+.seller-details {
+  margin-top: 1rem;
+}
+
+.seller-details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.seller-details strong {
+  font-weight: bold;
+}
+.edit-seller-form {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+/* Style for individual fields */
+.edit-seller-form input,
+.edit-seller-form textarea,
+.edit-seller-form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for the form rows */
+.edit-seller-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block:10px;
+}
+
+/* Style for each input in a row */
+.edit-seller-form .form-row > div {
+  flex: 1 1 calc(33.333% - 1rem);
+}
+
+/* Style for the textarea to occupy full width */
+.edit-seller-form textarea {
+  resize: vertical;
+}
+
+/* Style for the submit button */
+.edit-seller-form button.submit-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-seller-form button.submit-button:hover {
+  background-color: #0056b3;
+}
+
+  /* Sidebar container */
+ 
+
+  /* Menu list */
+  .menu-list {
+    padding: 20px;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  /* Menu item */
+  .menu-item {
+    margin-bottom: 15px;
+  }
+
+  .menu-item.active {
+    background-color: #4a5568;
+    border-radius: 5px;
+  }
+
+  /* Menu link */
+  .menu-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu-link:hover {
+    background-color: #4a5568;
+    border-radius: 5px;
+  }
+
+  /* Menu icon */
+  .icon {
+    margin-right: 10px;
+    font-size: 1.6rem;
+  }
+
+  /* Logout section */
+  .logout-section {
+    padding: 20px;
+  }
+
+  .logout-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e53e3e;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .logout-button:hover {
+    background-color: #c53030;
+  }
+
+
+  /* Home.css */
+
+  /* Main content area */
+  .content {
+    min-height: calc(100vh - 120px); /* Adjust height based on your header and footer */
+    background-color: #f5f5f5; /* Light background color */
+  }
+
+  /* Toast container overrides */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+
+  .Toastify__toast {
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .Toastify__toast--success {
+    background-color: #28a745;
+    color:#fff;
+  }
+
+  .Toastify__toast--error {
+    background-color: #dc3545;
+    color:#fff;
+  }
+
+  .Toastify__toast--info {
+    background-color: #17a2b8;
+  }
+
+  .Toastify__toast--warning {
+    background-color: #ffc107;
+  }
+  /* SellerDashBoard.css */
+
+  .dashboard-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling of the entire container */
+  }
+
+
+  .main-content {
+    flex: 1;/* Offset to accommodate the fixed sidebar */ /* Add some padding for content */
+    background-color: #FFF; /* Light background color for content area */
+    overflow-y: auto; /* Allow vertical scrolling */
+    height: 100vh;
+    margin-top:80px; /* Full height of the viewport */
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+/* Align with the sidebar */ /* Adjust width considering the sidebar */
+    background-color: #ffffff; /* Background color for the header */
+    z-index: 1001; /* Ensure it's above the sidebar */
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 300px; /* Align with the sidebar */
+    width: calc(100% - 300px); /* Adjust width considering the sidebar */
+    background-color: #ffffff; /* Background color for the footer */
+    z-index: 1001; /* Ensure it's above the sidebar */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  }
+
+  /* Optional: Responsive adjustments */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+
+    
+
+    .main-content {
+      margin-left: 0;
+      padding-top: 60px; /* Adjust to add space for the fixed header */
+    }
+
+    header,
+    footer {
+      left: 0;
+      width: 100%;
+    }
+  }
+
+
+  /* src/components/ActiveAdmins.css */
+  .settings2-active-admins-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .settings2-active-admins-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .settings2-active-admins-table th, .settings2-active-admins-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .settings2-active-admins-table th {
+    background-color: #f4f4f4;
+  }
+
+  .settings2-disable-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .settings2-disable-button:hover {
+    background-color: #c0392b;
+  }
+  /* Container styling to center the content */
+  .user-menu-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Icon styling */
+
+
+ /* DashBoardHeader.css */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top:80px;
+  z-index: 1000;
+  width:100%;
+
+}
+
+.dashboard-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+/* .search-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 8px;
+} */
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-seller-button {
+  margin-left: 20px;
+}
+
+  /* App.css */
+
+
+  /* Add more styles as needed */
+
+  /* styles.css (or your global CSS file) */
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* Ensure the background color covers the content behind */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better separation */
+    height:80px;
+  }
+  /* Header.css */
+
+  .header-container {
+    background-color: #E2E8F0; /* bg-slate-200 */
+    padding: 10px 0;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    width:100%;
+    height:80px;
+  }
+
+  .header-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+
+  .header-logo {
+    height: 75px;
+    margin-top: -8px;
+  }
+
+  .header-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .user-menu-container {
+    position: relative;
+  }
+
+
+
+  .user-icon:hover {
+    color: #1E293B; /* darken color on hover */
+  }
+
+  .outlet-container {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-inline: 20px; /* Add margin-top to the Outlet */
+    /* You can also add padding, background color, or any other styles as needed */
+  }
+
+
+  .user-menu-container {
+    display: flex;
+    align-items: center; /* Centers items vertically within the container */
+  }
+
+  .user-icon {
+    font-size: 1.5rem; /* Equivalent to text-3xl */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* Arrange icon and text in a column */
+    align-items: center; /* Center items horizontally within the column */
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column; /* Arrange text items in a column */
+    align-items: center; /* Center text items horizontally */
+    margin-top: 4px; /* Space between icon and text */
+  }
+  .span-1{
+    font-weight: 700;
+  }
+
+  .user-info span {
+    font-size: 12px;
+    color: #131313; /* Adjust based on your theme */
+  }
+
+
+
+ /* AddSeller.css */
+
+/* Style for the form container */
+
+
+/* Style for individual fields */
+.add-seller-form input,
+.add-seller-form textarea,
+.add-seller-form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for the form rows */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block: 10px;
+}
+
+/* Style for each input in a row */
+.form-row > div {
+  flex: 1 1 calc(33.333% - 1rem);
+}
+
+/* Style for the textarea to occupy full width */
+textarea {
+  resize: vertical;
+}
+
+/* Style for the submit button */
+/* .add-seller-form button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #FF0000;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+} */
+
+.add-seller-form button:hover {
+  background-color: #FF0000;
+}
+
+/* Center the submit button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.settings2-delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.settings2-delete-button:hover {
+  background-color: #d32f2f;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.popup-confirm-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.popup-cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.update-button{
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.view-seller-details h1{
+  font-weight: bold;
+  font-size: 24px;
+} 

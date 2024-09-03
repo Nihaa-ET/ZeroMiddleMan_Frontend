@@ -1,0 +1,152 @@
+/* CSS for ViewSellers Component */
+.view-sellers-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative; /* Needed for positioning buttons absolutely */
+}
+
+.seller-details-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.products-container{
+    position: relative;
+    padding-top: 20px;
+    padding-left:20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+}
+.seller-details-container h2,
+.products-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 700;
+}
+
+.seller-details-container p,
+.products-container p {
+    margin: 20px 0;
+    color: #555;
+}
+
+.products-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products-container li {
+    /* padding-bottom: 15px; */
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.products-container li:last-child {
+    border-bottom: none;
+}
+
+
+
+/* Button styles */
+.buttons-container {
+   display: flex;
+   justify-content: end;
+
+}
+
+.edit-button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#555 ;
+    width:120px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.trash-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F80505;
+    width:120px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .edit-button {
+    background-color: #007bff;
+} */
+
+.trash-button {
+    background-color: #dc3545;
+}
+.seller-details{
+    border: 2 px solid #333 ;
+}
+/* Hide the description initially */
+.description {
+    position: absolute;
+    bottom: 0px; /* Position the description above the button */
+    background-color: #dce3e5c8;
+    width: 85.5vw; /* Adjust width to fit the container */
+    height: 200px;
+    max-height: 0;
+    overflow: hidden;
+    transition: transform 0.3s ease-in, max-height 0.3s ease-in;
+    transform: translateY(100%);
+    left:0;
+    padding-left: 15px;
+    padding-top:10px ;
+    border-radius: 0px 0px 10px 10px;
+}
+.description  p{
+    text-align: center;
+}
+
+/* Show the description by moving it into view */
+.description.show {
+    max-height: 200px; /* Height of the description when fully visible */
+    transform: translateY(0);
+}
+.view-description{
+    display: flex;
+    justify-content: end;
+}
+
+.view-description-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #F80505;
+    color: white;
+    border-radius: 5px 0px 0px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    z-index:99;
+}
+
+.view-description-button:hover {
+    background-color: #F80505;
+}
+

@@ -1,0 +1,71 @@
+/* Add to your CSS file */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    width:100%;
+}
+
+.fileupload-modal-content {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    width:700px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+.uploading-btn{
+    display: flex;
+    justify-content: end;
+    gap:20px;
+}
+.upload-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+.upload-cancel-btn{
+    border:2px solid #00000078;
+    padding:10px 20px;
+    color:#00000078;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.upload-cancel-btn:hover{
+    border: none;
+    background-color:#F80505 ;
+    color:#fff;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+

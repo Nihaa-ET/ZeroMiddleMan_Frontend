@@ -1,0 +1,74 @@
+.sub-header {
+    background-color: #FF0000; /* Red background */
+    height: 50px; /* Fixed height */
+    margin-top: 89px; /* Space from top */
+    position: fixed; /* Fixed position */
+    z-index: 99; /* Ensures it stays on top */
+    width: 100%; /* Full width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns items on each side */
+    padding: 0 50px; /* Horizontal padding */
+  }
+  
+  .sub-header a {
+    text-decoration: none; /* Removes underline from links */
+    color: #fff; /* White text color */
+  }
+  
+  .sub-header-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-header-title h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+    padding-block: 10px;
+    color: #fff;
+  }
+  
+  .sub-header-col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sub-header-list {
+    list-style-type: none; /* Removes bullet points */
+    display: flex;
+    gap: 60px; /* Space between links */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+  .sub-header-list a {
+    color: #fff; /* Ensures link text is white */
+  }
+  
+  .sub-header .link {
+    display: flex;
+    align-items: center;
+    font-size: 18px; /* Increases text size */
+  }
+  
+  .sub-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-size: 18px;
+  }
+  
+  .active-link {
+    border-bottom: 2px solid #fff; /* Border bottom for active link */
+  }
+  
+  .active-sub-link {
+    border-bottom: 2px solid #fff; /* Border bottom for active link */
+  }
+  .icon{
+    font-size: 22px;
+  }
+  

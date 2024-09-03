@@ -1,0 +1,63 @@
+/* Add this to your FileUpload.css file */
+.upload-section {
+    border: 2px dashed #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 450px;
+    height:300px;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upload-label {
+    display: inline-block;
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.upload-area {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.upload-icon{
+    font-size: 60px;
+    color: #0000007c;
+}
+
+.upload-area p {
+    margin: 0;
+}
+
+
+/* Drag and drop styles */
+.upload-section.drag-over {
+    border-color: #007bff;
+    background-color: #e9f5ff;
+}
+
+.upload-section.drag-over .upload-area {
+    background-color: #e9f5ff;
+}
+.select-file-btn{
+    background-color: #fff;
+    border: 2px solid #007bff ;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.select-file-btn:hover{
+    color:#fff;
+}
+.upload-area p{
+    color:#000000b3;
+}

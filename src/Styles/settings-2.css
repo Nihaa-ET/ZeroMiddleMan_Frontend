@@ -1,0 +1,35 @@
+/* settings2.css */
+.settings2-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Prevents overflow from sidebar and content area */
+}
+
+.settings2-content {
+    margin-left: 300px; /* Match the width of your sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Ensure content area takes the remaining width */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    background-color: #fff; /* Background color for the content area */
+}
+
+/* Optional: Add styles for the navigation buttons within the sidebar if needed */
+.settings2-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings2-nav button {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.settings2-nav button.active {
+    background-color: #007bff;
+    color: #fff;
+}

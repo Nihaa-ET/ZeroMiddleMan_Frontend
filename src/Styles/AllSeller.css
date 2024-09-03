@@ -1,0 +1,176 @@
+
+  
+  .all-seller-toolbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .all-seller-div{
+    width: 100%;
+  }
+  
+  .all-seller-left-section,
+  .all-seller-right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .all-seller-btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .all-seller-filter-btn {
+    background-color: #e0f7fa;
+    color: #00796b;
+  }
+  
+  .all-seller-add-seller-btn {
+    background-color: #F80505;
+  }
+  
+  .all-seller-delete-btn {
+    background-color: #F80505;
+    padding: 8px;
+    color:#fff;
+    border-radius: 4px;
+    
+    
+  }
+  .all-seller-delete-btn svg{
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .all-seller-export-excel-btn {
+    background-color: #ff9800;
+  }
+  
+  .all-seller-import-excel-btn {
+    background-color: #4caf50;
+  }
+  
+  .all-seller-icon {
+    margin-right: 8px;
+  }
+  
+  .all-seller-pagination {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .all-seller-pagination span {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .all-seller-active-page {
+    background-color: #29b6f6;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+  
+  .all-seller-page-select {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  table td {
+    cursor: pointer;
+  }
+  
+  table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  .all-seller-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .all-seller-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .all-seller-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .search-seller{
+    border:1px solid #00000069;
+    width:100%;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .all-seller-filter-select {
+    width: 100%;
+    padding: 8px 30px 8px 10px; /* Add extra padding on the right for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none; /* Removes default arrow */
+    outline: none;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzMzMzMzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTggOWwtNiA2LTYtNiAxLjQtMS40TDExIDEyLjIgMTYuNiA3LjZMMTggOXoiLz48L3N2Zz4=');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Position the icon */
+    background-size: 18px; /* Adjust icon size */
+}
+
+.all-seller-filter-select:focus {
+    border-color: #007bff;
+}
+.all-seller-table th{
+  text-align: center;
+}
+.all-seller-table th span{
+  display: flex ;
+  gap:5px;
+  align-items: center;
+  text-align: center;
+}
