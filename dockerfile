@@ -20,7 +20,7 @@ RUN npm run build
 RUN npm install -g serve
 
 # Expose port 80 to the outside world
-EXPOSE 3000
+EXPOSE 5050
 
 # Serve the build folder using "serve"
 CMD ["serve", "-s", "build"]
